@@ -11,7 +11,7 @@ stages {
          }
      post {
        always {
-         archiveArtifact artifacts: 'dist/*.jar', fingerprint:true
+         archiveArtifact artifacts: 'dist/*.war', fingerprint:true
          echo 'archived'
            }
           }
