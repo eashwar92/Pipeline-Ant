@@ -11,7 +11,7 @@ stages {
          }
      post {
        always {
-         archive 'dist/*.war'
+         archive 'dist/*.jar'
          echo 'archived'
            }
           }
